@@ -3,7 +3,7 @@ This is a custom action that uses the lslint utility for checking files written 
 
 ## Inputs
 
-## `filename`
+## `filepath`
 
 **Required** The file path to the script or scripts to run lslint on.
 Ex: `src/*.lsl`
