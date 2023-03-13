@@ -1,0 +1,11 @@
+name: 'lsl lint'
+description: 'Runs lslint on lsl files'
+inputs:
+  filepath:
+    description: 'The path to run lslint on'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.filepath }}
