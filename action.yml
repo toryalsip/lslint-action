@@ -4,6 +4,7 @@ inputs:
   filepath:
     description: 'The path to run lslint on'
     required: true
+    default: 'src/*.lsl'
 runs:
   using: 'docker'
   image: 'Dockerfile'
