@@ -13,5 +13,5 @@ Ex: `src/*.lsl`
 ```
 uses: toryalsip/lslint-action@v0.1beta
 with:
-    filename: 'src/*.lsl'
+    filepath: 'src/*.lsl'
 ```
