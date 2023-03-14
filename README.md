@@ -6,12 +6,12 @@ This is a custom action that uses the lslint utility for checking files written 
 ## `filepath`
 
 **Required** The file path to the script or scripts to run lslint on.
-Ex: `src/*.lsl`
+Ex: `src/`
 
 ## Example usage
 
 ```
-uses: toryalsip/lslint-action@v0.1beta
+uses: toryalsip/lslint-action@v2-beta1
 with:
-    filepath: 'src/*.lsl'
+    filepath: 'src/'
 ```

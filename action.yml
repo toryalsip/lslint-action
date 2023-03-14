@@ -2,9 +2,8 @@ name: 'lsl lint'
 description: 'Runs lslint on lsl files'
 inputs:
   filepath:
-    description: 'The path to run lslint on'
-    required: true
-    default: 'src/*.lsl'
+    description: 'The path to run lslint. This action will run on all scripts in that path.'
+    default: '.'
 runs:
   using: 'docker'
   image: 'Dockerfile'

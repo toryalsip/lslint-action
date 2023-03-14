@@ -1,4 +1,5 @@
 #!/bin/sh -l
-
-echo "lslint -v -p $1"
-lslint -v -p $1
+for f in $(find $1 *.lsl -type f -print)
+do
+    lslint -v -p $f
+done
