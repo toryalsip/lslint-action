@@ -1,5 +1,5 @@
 #!/bin/sh -l
-$LSLINT_VERSION=$2
+LSLINT_VERSION=$2
 
 if [ -z $LSLINT_VERSION ] ;then
   LSLINT_VERSION="latest"
