@@ -13,4 +13,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.filepath }}
-    - ${{ intputs.lslint_version }}
+    - ${{ inputs.lslint_version }}
