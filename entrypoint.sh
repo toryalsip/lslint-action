@@ -2,7 +2,7 @@
 $LSLINT_VERSION=$2
 
 if [ -z $LSLINT_VERSION ] ;then
-  HUGO_VERSION="latest"
+  LSLINT_VERSION="latest"
   API_ENDPOINT="https://api.github.com/repos/Makopo/lslint/releases/latest"
 else
   API_ENDPOINT="https://api.github.com/repos/Makopo/lslint/releases/tags/$LSLINT_VERSION"
