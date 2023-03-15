@@ -4,6 +4,10 @@ inputs:
   filepath:
     description: 'The path to run lslint. This action will run on all scripts in that path.'
     default: '.'
+  lslint_version:
+    description: 'The version of lslint to use.'
+    required: true
+    default: 'v1.3'
 runs:
   using: 'docker'
   image: 'Dockerfile'
